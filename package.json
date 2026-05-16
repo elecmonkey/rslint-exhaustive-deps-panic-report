@@ -4,22 +4,16 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "lint": "rslint --type-check src/components/RoutePrefetcher.tsx",
-    "lint:rslint": "rslint --type-check src/components/RoutePrefetcher.tsx",
-    "lint:eslint": "eslint src/components/RoutePrefetcher.tsx"
+    "lint": "rslint --type-check src/repro.tsx"
   },
   "dependencies": {
     "react": "19.2.6"
   },
   "devDependencies": {
-    "@eslint/js": "10.0.1",
     "@rslint/core": "0.5.3",
     "@types/node": "25.6.0",
     "@types/react": "19.2.14",
-    "eslint": "^10.4.0",
-    "eslint-plugin-react-hooks": "7.1.1",
-    "typescript": "6.0.3",
-    "typescript-eslint": "8.59.3"
+    "typescript": "6.0.3"
   },
   "packageManager": "pnpm@11.1.0"
 }
